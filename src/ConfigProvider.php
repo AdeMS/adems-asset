@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Asset;
+namespace AdeMS\Asset;
 
 class ConfigProvider
 {

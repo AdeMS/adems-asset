@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Asset\Handler;
+namespace Adems\Asset\Handler;
 
 use Mezzio\Template\TemplateRendererInterface;
 use Psr\Container\ContainerInterface;

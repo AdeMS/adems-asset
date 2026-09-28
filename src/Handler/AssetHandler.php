@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Asset\Handler;
+namespace Adems\Asset\Handler;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
