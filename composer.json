@@ -1,0 +1,26 @@
+{
+    "name": "adems/adems-asset",
+    "description": "Aset AdeMS, untuk mengelola segala file dan dokumen aset Tempat AdeMS.",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "asset",
+        "dapur",
+        "php",
+        "laminas",
+        "mezzio",
+        "middleware"
+    ],
+    "homepage": "https://asset.adems.id",
+    "type": "library",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Asset\\": "src/"
+        }
+    }
+}
