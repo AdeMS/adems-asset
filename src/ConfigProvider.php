@@ -17,6 +17,7 @@ class ConfigProvider
         return [
             'dependencies' => $this->getDependencies(),
             'templates'    => $this->getTemplates(),
+            'routes'       => $this->getRoutes(),
         ];
     }
 
@@ -47,4 +48,15 @@ class ConfigProvider
         ];
     }
 
+    public function getRoutes(): array
+    {
+        return [
+            [
+                'name' => 'asset',
+                'path' => '/asset/',
+                'middleware' => Adems\Asset\AssetHandler::class,
+                'allowed_methods' => ['GET'],
+            ]
+        ];
+    }
 }
