@@ -54,7 +54,7 @@ class ConfigProvider
             [
                 'name' => 'asset',
                 'path' => '/asset',
-                'middleware' => Adems\Asset\Handler\AssetHandler::class,
+                'middleware' => Handler\AssetHandler::class,
                 'allowed_methods' => ['GET'],
             ]
         ];
